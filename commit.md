@@ -14,6 +14,8 @@
         - it could be useful when you want to have detailed commit message description  
 - git commit -m "my commit message"
     - commit without opening vim or other editor
+- git commit -a -m "my commit message"
+    - one line command to stage+commit
 - git commit --amend
     - you can use this to amend your **LAST** commit
     - before commit --amend, you can add other files or remove files from staged
