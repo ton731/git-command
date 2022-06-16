@@ -5,7 +5,7 @@
     2. git merge new-branch
 
 
-### Merge (with Conflicts)
+### Merge (always with Conflicts)
 - When both the main branch and the new branch commit, and you want to merge the new branch into the main branch, it may cause some conflicts. There are a few steps:
     1. git switch master, and git merge new-branch
     2. resolve the conflict markers in the text editor, devide which to keep
