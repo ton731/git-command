@@ -12,3 +12,4 @@
 - git commit -m "my commit message"
     - commit without opening vim or other editor
 - git log
+- git log --oneline
