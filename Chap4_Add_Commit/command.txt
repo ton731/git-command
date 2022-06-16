@@ -1,3 +1,5 @@
 git add <file_name>...
 git rm --cached <file_name>
 git commit -m "my commit message"
+git commit .
+git log
