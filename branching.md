@@ -3,5 +3,7 @@
     - see branch list
 - git branch branch-name
     - create branch
-- git switch brance-name
+- git switch branch-name
     - switch to target branch
+- git switch -c branch-name
+    - create the new branch and switch to it
