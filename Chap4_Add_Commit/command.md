@@ -1,0 +1,14 @@
+- git add <file_name>...
+- git add .
+    - stage all files
+- git rm --cached <file_name>
+    - remove files from staged
+- git commit
+    - it will open vim defaultly
+    - you can set to vscode by the following setting
+        - git config --global core.editor "code --wait"
+        - command+shift+P (open command plattee) --> Shell command: Install 'code' command in PATH
+        - it could be useful when you want to have detailed commit message description  
+- git commit -m "my commit message"
+    - commit without opening vim or other editor
+- git log

@@ -1,0 +1,5 @@
+- git config --list
+- git config --global user.name "name"
+- git config --global user.email ton731@gmail.com
+- git status
+- git init
