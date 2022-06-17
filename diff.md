@@ -1,4 +1,12 @@
 ### Diff
 - git diff
     - list all the changes in our working directory that are NOT staged for the next commit
-- git
+- git diff HEAD
+    - list all changes since last commit (including staged and unstaged changes)
+- git diff --staged or git diff --cached
+    - list the changes between the staging area and our last commit
+    - **Show me what will be included in my commit if I run git commit right now**
+- git diff file_name...
+    - file_name can also be added after git diff HEAD, git diff --staged.....
+- git diff branch1 branch 2 or git diff
+    - list the changes between branch1 and branch2
