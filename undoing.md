@@ -8,3 +8,10 @@
     - go back to the commit, where HEAD~2 refers to 2 commits before HEAD
 - `git switch -`
     - go back to last branch
+
+
+### Discard Changes with Git Checkout
+- `git checkout HEAD <file-name>`
+    - discard the changes and revert back to whatever it looked like when you last committed
+- `git checkout -- <file-name>`
+    - same as `git checkout HEAD <file-name>`
