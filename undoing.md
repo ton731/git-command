@@ -27,3 +27,11 @@
 ### Unstaging Files with Git Restore
 - `git restore --staged <file-name>`
     - remove the file from staging
+
+
+### Git Reset
+- `git reset <commit-hash>`
+    - reset the repo back to a specific commit
+    - the commits after the given commit will be deleted, but the changes of the files will be remained as unstaged
+- `git reset --hard <commit-hash>`
+    - delete the last commit and the associated changes
