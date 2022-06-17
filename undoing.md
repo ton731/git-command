@@ -15,3 +15,15 @@
     - discard the changes and revert back to whatever it looked like when you last committed
 - `git checkout -- <file-name>`
     - same as `git checkout HEAD <file-name>`
+
+
+### Unmodifiying Files with Restore
+- `git restore <file-name>`
+    - to restore the file to the content in the HEAD
+- `git restore --source HEAD~2 <file-name>`
+    - to restore the file to the given source
+
+
+### Unstaging Files with Git Restore
+- `git restore --staged <file-name>`
+    - remove the file from staging
