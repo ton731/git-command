@@ -10,3 +10,5 @@
     - file_name can also be added after `git diff HEAD`, `git diff --staged`.....
 - `git diff branch1 branch2` or `git diff branch1..branch2`
     - list the changes between branch1 and branch2
+- `git diff commit1..commit2`
+    - provide git diff with the 2 commit hashes between 2 commits
