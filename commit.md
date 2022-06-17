@@ -2,8 +2,10 @@
 - git add <file_name>...
 - git add .
     - stage all files
-- git rm --cached <file_name>
-    - remove files from staged
+- git restore --staged file_name or git reset -- file_name
+    - will unstage any staged changes for the given file(s)
+- git rm --cached file_name 
+    - does not unstage a file, it actually stages the removal of the file(s) from the repo (assuming it was already committed before) but leaves the file in your working tree (leaving you with an untracked file)
 
 ### Commit
 - git commit
