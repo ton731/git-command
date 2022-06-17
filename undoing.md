@@ -33,5 +33,13 @@
 - `git reset <commit-hash>`
     - reset the repo back to a specific commit
     - the commits after the given commit will be deleted, but the changes of the files will be remained as unstaged
+    - `git reset` moves the branch pointer backwards, eliminating commits
 - `git reset --hard <commit-hash>`
     - delete the last commit and the associated changes
+
+
+### Git Revert
+- `git revert <commit-hash>`
+    - `git revert` create a brand new commit that reverses / undos the change from a commit
+    - when collaborating with others, using `git reset` could cause problem, since others don't know you delete the commits
+    - `git revert` should be used when collaborating and others have the files you want to undo
