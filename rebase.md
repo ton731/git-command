@@ -17,3 +17,15 @@ There are two main ways to use the git rebase command:
 
 ### **Seriously**
 You do not want to rewrite and git history that other people already have. It's a pain to reconcile the alternate histories!
+
+
+
+### 2. Interactive Rebase
+Sometimes we want to rewrite, delete, rename, or even reorder commits (before sharing them). We can do this using git rebase!
+- `git rebase -i HEAD~4`
+    - rebasing a series of commits onto the HEAD they currently are based on
+    - commonly used commands:
+        - `pick:` use the commit
+        - `reword:` use the commit, but edit the commit message
+        - `fixup:` use commit contents but meld it into previous commit and discard the commit message
+        - `drop:` remove commit
