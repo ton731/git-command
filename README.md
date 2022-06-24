@@ -10,3 +10,4 @@
 - resotre, reset, revert
 - remote
 - fetch, pull
+- rebase
