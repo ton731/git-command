@@ -11,3 +11,4 @@
 - remote
 - fetch, pull
 - rebase
+- reflog
